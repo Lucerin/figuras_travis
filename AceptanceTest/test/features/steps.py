@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from lettuce import world,step
+from lettuce import world, step
 import sys
 sys.path.append("../")
 from Figuras import Figuras
@@ -14,19 +14,19 @@ def given_i_have_the_number_6(step,number):
     world.escenario = 1
 
 @step(u'Given I have the diamond (\d+) (\d+)')
-def given_i_have_the_number_7(step,number,base):
+def given_i_have_the_number_8(step,number,base):
     world.number = int(number)
     world.escenario = 2
     world.base = int(base)	
 
 @step(u'Given I have the triangle (\d+) (\d+)')
-def given_i_have_the_number_7(step,number,base):
+def given_i_have_the_number_9(step,number,base):
     world.number = int(number)
     world.escenario = 3
     world.base = int(base)	
 
 @step(u'Given I have the rectangle (\d+) (\d+)')
-def given_i_have_the_number_7(step,number,base):
+def given_i_have_the_number_10(step,number,base):
     world.number = int(number)
     world.escenario = 4
     world.base = int(base)	
